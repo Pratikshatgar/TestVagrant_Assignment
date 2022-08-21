@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.717">
+<testcase classname="TestVagrant Assignment" name="Validate given requirements" time="0.151">
+<system-out><![CDATA[Given Store the response....................................................passed
+When Deserialaize the resopnse by using pojo class..........................passed
+Then Validate That the team contains only four foreign players..............passed
+And Validate that there is ateast one wicket keeper.........................passed
+]]></system-out>
+</testcase>
+</testsuite>
