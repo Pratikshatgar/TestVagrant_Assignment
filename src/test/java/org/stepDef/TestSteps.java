@@ -1,18 +1,12 @@
 package org.stepDef;
 import java.io.IOException;
-
 import org.jsonBody.GivenJsonBody;
 import org.junit.Assert;
 import org.pojo.Root;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.messages.internal.com.fasterxml.jackson.databind.ObjectMapper;
-//import io.cucumber.messages.internal.com.fasterxml.jackson.core.JsonProcessingException;
-//import io.cucumber.messages.internal.com.fasterxml.jackson.databind.JsonMappingException;
-
-
 
 public class TestSteps {
 	
@@ -25,9 +19,7 @@ public class TestSteps {
 
 	@When("Deserialaize the resopnse by using pojo class")
 	public void deserialaize_the_resopnse_by_using_pojo_class() throws IOException {
-	//   ObjectMapper objMap = new ObjectMapper();
-	  rt = new ObjectMapper().readValue(json,Root.class);
-	  
+	  rt = new ObjectMapper().readValue(json,Root.class); 
 	}
 
 	@Then("Validate That the team contains only four foreign players")

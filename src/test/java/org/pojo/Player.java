@@ -1,8 +1,5 @@
 package org.pojo;
-import java.util.HashMap;
-import java.util.Map;
-
-import io.cucumber.messages.internal.com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Player {
 	private String name;
